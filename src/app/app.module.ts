@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './course/course-list.component';
-import { StarComponent } from './course/star/star.component';
+import { StarComponent } from './star/star.component';
 
 @NgModule({
   declarations: [

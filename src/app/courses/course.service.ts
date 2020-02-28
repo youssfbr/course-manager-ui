@@ -17,7 +17,7 @@ export class CourseService {
   }
 
   retrieveById(id: number): Observable<Course> {
-    return this.httpClient.get<Course>('${this.coursesUrl}/${id}');
+    return this.httpClient.get<Course>(`${this.coursesUrl}/${id}`);
   }
 
   save(course: Course): void {
